@@ -1,0 +1,23 @@
+import random
+n=random.choice(range(10))
+for i in range(5):
+ c=int(input('guess a number:'))
+if c==n:
+    print('hi')
+    exit(0)
+else:
+    print('try again')
+    print('lost')
+  
+    
+    
+    '''
+    sample output:
+    guess a number:0
+    guess a number:1
+    guess a number:2
+    guess a number:3
+    guess a number:4
+    try again
+    lost
+    '''
